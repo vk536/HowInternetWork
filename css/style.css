@@ -17,6 +17,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.smallJumbotron {
+  padding: 10px !important;
+}
 .carousel-inner img {
   height: 450px;
   width: 800px;
