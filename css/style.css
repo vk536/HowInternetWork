@@ -1,7 +1,14 @@
-body {
-  font-family: "Open Sans", sans-serif;
-    font-weight:bold;
-  color: #444444;
+.bg{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-image: url('../images/bg1.jpg');
+  position: relative;
+}
+.bg::before {
+      background: rgba(255,255,255,0.5);
+      content: "";
+      position: absolute;
 }
 
 a {
@@ -25,6 +32,15 @@ h1, h2, h3, h4, h5, h6 {
   width: 800px;
   position: center;
   margin: auto;
+}
+.content4{
+  font-family: "Open Sans", sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: justify;
 }
 
 
