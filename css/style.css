@@ -3,6 +3,11 @@
   font-weight: bolder;
   font-size: x-large;
 }
+.card{
+  background-color: transparent !important;
+  border-color: transparent !important;
+  border-width: 0px !important;
+}
 .navbar-brand{
   font-size: x-large !important;
 }
@@ -19,8 +24,11 @@
 img{
   border-style: solid !important;
 }
-.display-4{
+.display-4 {
   font-weight: bolder !important;
+  background-image: linear-gradient(to right, black, white);
+  padding-left: 20px;
+  color: white;
 }
 .team-pic{
   padding-right: 50px;
@@ -29,9 +37,9 @@ img{
   padding-right: 75px;
 }
 .card{
-  border-style: ridge;
-  border-width: 10px;
-  border-color: white !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  border-width: 0px !important;
 }
 .card-img-top{
   border-width: 3px;
@@ -96,7 +104,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Lucida Console", Courier, monospace;
   font-weight: bolder !important;
 }
-
+h1, h2{
+  font-family: Georgia !important;
+}
 .smallJumbotron {
   padding: 10px !important;
 }
@@ -128,4 +138,12 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #23272b;
   color: white;
   text-align: center;
+  background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)) ;
+}
+.about{
+  font-weight: bold !important;
+  font-size: large;
+  text-align: justify;
+  background-color: lightgrey !important;
+  padding: 20px;
 }
