@@ -12,12 +12,6 @@
   width: 100%;
   background-image: url('../images/bg1.jpg');
 }
-.bg::before {
-  background: rgba(255,255,255,0.8);
-  content: "";
-  position: absolute;
-
-}
 .card-text{
   text-align: justify;
   font-weight: bold;
