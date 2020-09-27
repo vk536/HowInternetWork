@@ -11,17 +11,27 @@
       position: absolute;
 
 }
+.card-text{
+  text-align: justify;
+  font-weight: bold;
+}
 img{
-  border-style: solid !important;
+  border-style: dotted !important;
+}
+.display-4{
+  font-weight: bolder !important;
 }
 .team-pic{
   padding-right: 50px;
 }
 .image-name{
-  padding-right: 105px;
+  padding-right: 75px;
+}
+.card-body{
+  border-style: dotted;
 }
 .name{
-  padding-left: 45px;
+  padding-left: 30px;
 }
 .team{
   padding-left: 340px;
@@ -36,7 +46,8 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Lucida Console", Courier, monospace;
+  font-weight: bolder !important;
 }
 
 .smallJumbotron {
