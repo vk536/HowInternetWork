@@ -9,8 +9,23 @@
       background: rgba(255,255,255,0.8);
       content: "";
       position: absolute;
-}
 
+}
+img{
+  border-style: solid !important;
+}
+.team-pic{
+  padding-right: 50px;
+}
+.image-name{
+  padding-right: 105px;
+}
+.name{
+  padding-left: 45px;
+}
+.team{
+  padding-left: 340px;
+}
 a {
   color: #2487ce;
 }
