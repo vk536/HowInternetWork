@@ -1,3 +1,11 @@
+.navbar-expand-lg{
+  background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1));
+  font-weight: bolder;
+  font-size: x-large;
+}
+.navbar-brand{
+  font-size: x-large !important;
+}
 .bg{
   position: relative;
   height: 100%;
@@ -5,9 +13,9 @@
   background-image: url('../images/bg1.jpg');
 }
 .bg::before {
-      background: rgba(255,255,255,0.8);
-      content: "";
-      position: absolute;
+  background: rgba(255,255,255,0.8);
+  content: "";
+  position: absolute;
 
 }
 .card-text{
@@ -26,8 +34,54 @@ img{
 .image-name{
   padding-right: 75px;
 }
-.card-body{
-  border-style: solid;
+.card{
+  border-style: ridge;
+  border-width: 10px;
+  border-color: white !important;
+}
+.card-img-top{
+  border-width: 3px;
+  border-color: black;
+}
+.card-img-top1{
+  border-style: ridge !important;
+  border-width: 8px;
+  border-color: darkgreen;
+}
+.card-img-top2{
+  border-style: ridge !important;
+  border-width: 8px;
+  border-color: deeppink;
+}
+.card-img-top3{
+  border-style: ridge !important;
+  border-width: 8px;
+  border-color: yellow;
+}
+.card-img-top4{
+  border-style: ridge !important;
+  border-width: 8px;
+  border-color: deepskyblue;
+}
+.card-img-top5{
+  border-style: ridge !important;
+  border-width: 8px;
+  border-color: darkorange;
+}
+.card1{
+  background-color: lightgreen;
+}
+.card2{
+  background-color: lightpink;
+}
+.card3{
+  background-color: lightgoldenrodyellow;
+}
+.card4{
+  background-color: lightseagreen;
+}
+.card5{
+  background-color: lightsalmon;
 }
 .name{
   padding-left: 30px;
