@@ -3,7 +3,6 @@
   height: 100%;
   width: 100%;
   background-image: url('../images/bg1.jpg');
-  opacity: 0.75;
 }
 .bg::before {
       background: rgba(255,255,255,0.8);
@@ -16,7 +15,7 @@
   font-weight: bold;
 }
 img{
-  border-style: dotted !important;
+  border-style: solid !important;
 }
 .display-4{
   font-weight: bolder !important;
@@ -28,7 +27,7 @@ img{
   padding-right: 75px;
 }
 .card-body{
-  border-style: dotted;
+  border-style: solid;
 }
 .name{
   padding-left: 30px;
