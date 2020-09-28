@@ -153,3 +153,10 @@ h1, h2{
 .linkedin{
   padding-left: 80px;
 }
+.dropdown-menu{
+  background-color: lightgrey !important;
+  color: white !important;
+  font-size: larger !important;
+  font-weight: bolder !important;
+  border-radius: 20px !important;
+}
