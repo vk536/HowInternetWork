@@ -137,7 +137,7 @@ h1, h2{
   width: 100%;
   background-color: #23272b;
   color: white;
-  text-align: center;
+  text-align: center !important;
   background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)) ;
 }
 .about{
