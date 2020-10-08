@@ -180,3 +180,6 @@ h1, h2{
 .myImage1{
   margin-left: 40px;
 }
+p{
+  text-align: justify;
+}
