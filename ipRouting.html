@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Internet Project</title>
+
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+</head>
+<body>
+
+<!-- ======= Navigation Section ======= -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="./index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Contents
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="./histOfInternet.html">Internet History</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./browserWars.html">Browser Wars</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./searchEngines.html">Search Engines</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./dotComBubble.html">E-Commerce</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./peoplePart.html">Social Networking</a>
+                </div>
+            </li>
+
+            <a class="nav-link" href="./howInternetWorks.html">How Internet Works</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#team">Team</a>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<div class="bg">
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+            <div class="row justify-content-center">
+                <div class="col-xl-7 col-lg-9 text-center">
+                    <br />
+                    <h1>IP Addresses, Packets & Routing</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br/>
+    <div class="myImage">
+        <img src="./images/page2b.jpg" class="myImage1" alt="..." height="250" width="300">
+
+        <img src="./images/page2c.jpg" class="myImage1" alt="..." height="250" width="300">
+
+        <img src="./images/page2a.jpg" class="myImage1" alt="..." height="250" width="300">
+    </div>
+
+    <div class="content4">
+        <p><h3>IP Addresses</h3></p>
+    <p>Internet Protocol version 4 (IPv4) defines an IP address as a 32-bit number.[2] However, because of the growth of the Internet and the depletion of available IPv4 addresses, a new version of IP (IPv6), using 128 bits for the IP address, was standardized in 1998. IP addresses are written and displayed in human-readable notations, such as 172.16.254.1 in IPv4, and 2001:db8:0:1234:0:567:8:1 in IPv6. The size of the routing prefix of the address is designated in CIDR notation by suffixing the address with the number of significant bits, e.g., 192.168.1.15/24, which is equivalent to the historically used subnet mask 255.255.255.0.</p>
+    <p><h3>Packets</h3></p>
+    <p>In networking, a packet is a small segment of a larger message. Data sent over computer networks*, such as the Internet, is divided into packets. These packets are then recombined by the computer or device that receives them.
+        <br/>For example: Suppose Alice is writing a letter to Bob, but Bob's mail slot is only wide enough to accept envelopes the size of a small index card. Instead of writing her letter on normal paper and then trying to stuff it through the mail slot, Alice divides her letter into much shorter sections, each a few words long, and writes these sections out on index cards. She delivers the group of cards to Bob, who puts them in order to read the whole message. Also, Alice can add a bit of more information to the top of each index card known as packet header so that the reciever could know from where the packet is coming.</p>
+    <p><h3>Routing</h3></p>
+        <p>In packet switching networks, Routing is the higher-level decision making that directs network packets from their source toward their destination through intermediate network nodes by specific packet forwarding mechanisms. Intermediate nodes are typically network hardware devices such as routers, gateways, firewalls, or switches. The routing process usually directs forwarding on the basis of routing tables. Routing tables maintain a record of the routes to various network destinations. Routing tables may be specified by an administrator, learned by observing network traffic or built with the assistance of routing protocols.</p>
+    </div>
+    <br/>
+    <br/>
+    <div class="footer">
+        <p> New Jersey Institute of Technology</p>
+    </div>
+</div>
+</body>
+</html>
