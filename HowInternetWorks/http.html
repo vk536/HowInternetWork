@@ -6,7 +6,7 @@
 
     <title>Internet Project</title>
 
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -18,7 +18,7 @@
 
 <!-- ======= Navigation Section ======= -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="./index.html">Home</a>
+    <a class="navbar-brand" href="../index.html">Home</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -29,19 +29,19 @@
                     Contents
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="./histOfInternet.html">Internet History</a>
+                    <a class="dropdown-item" href="../histOfInternet.html">Internet History</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="./browserWars.html">Browser Wars</a>
+                    <a class="dropdown-item" href="../browserWars.html">Browser Wars</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="./searchEngines.html">Search Engines</a>
+                    <a class="dropdown-item" href="../searchEngines.html">Search Engines</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="./dotComBubble.html">E-Commerce</a>
+                    <a class="dropdown-item" href="../dotComBubble.html">E-Commerce</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="./peoplePart.html">Social Networking</a>
+                    <a class="dropdown-item" href="../peoplePart.html">Social Networking</a>
                 </div>
             </li>
 
-            <a class="nav-link" href="./howInternetWorks.html">How Internet Works</a>
+            <a class="nav-link" href="howInternetWorks.html">How Internet Works</a>
             <a class="nav-link" href="#about">About</a>
             <a class="nav-link" href="#team">Team</a>
         </div>
@@ -55,27 +55,32 @@
             <div class="row justify-content-center">
                 <div class="col-xl-7 col-lg-9 text-center">
                     <br />
-                    <h1>Domain Name Server</h1>
+                    <h1>HTTP & HTTPS Protocol</h1>
                 </div>
             </div>
         </div>
     </section>
     <br/>
     <div class="myImage">
-        <img src="./images/page2b.jpg" class="myImage1" alt="..." height="250" width="300">
+        <img src="../InternetHistory/images/page2b.jpg" class="myImage1" alt="..." height="250" width="300">
 
-        <img src="./images/page2c.jpg" class="myImage1" alt="..." height="250" width="300">
+        <img src="../InternetHistory/images/page2c.jpg" class="myImage1" alt="..." height="250" width="300">
 
-        <img src="./images/page2a.jpg" class="myImage1" alt="..." height="250" width="300">
+        <img src="../InternetHistory/images/page2a.jpg" class="myImage1" alt="..." height="250" width="300">
     </div>
 
     <div class="content4">
-        <p> The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources.
-
-Each device connected to the Internet has a unique IP address which other machines use to find the device. DNS servers eliminate the need for humans to memorize IP addresses such as 192.168.1.1 (in IPv4), or more complex newer alphanumeric IP addresses such as 2400:cb00:2048:1::c629:d7a2 (in IPv6).</p>
-        <p>The process of DNS resolution involves converting a hostname (such as www.example.com) into a computer-friendly IP address (such as 192.168.1.1). An IP address is given to each device on the Internet, and that address is necessary to find the appropriate Internet device - like a street address is used to find a particular home. When a user wants to load a webpage, a translation must occur between what a user types into their web browser (example.com) and the machine-friendly address necessary to locate the example.com webpage.</p>
-        <p>For example, the domain name www.example.com translates to the addresses 93.184.216.34 (IPv4) and 2606:2800:220:1:248:1893:25c8:1946 (IPv6). The DNS can be quickly and transparently updated, allowing a service's location on the network to change without affecting the end users, who continue to use the same hostname. Users take advantage of this when they use meaningful Uniform Resource Locators (URLs) and e-mail addresses without having to know how the computer actually locates the services.</p>
-
+        <p><h3>HTTP</h3></p>
+        <p> In HTTP, The client sends a request message to an HTTP server (after the TCP handshake) which hosts a website, the server then replies with the response message. The response message contains completion status information, such as HTTP/1.1 200 OK.</p>
+        <p><h3>HTTPS</h3></p>
+        <p>HTTPS transmits its data security using an encrypted connection. Basically it uses a public key which is then decrypted on the recipient side. The public key is deployed on the server, and included in what you know as an SSL certificate. The certificates are cryptographically signed by a Certificate Authority (CA), and each browser has a list of CAs it implicitly trusts. Any certificate signed by a CA in the trusted list is given a green padlock lock in the browser's address bar, because it's proven to be "trusted" and belongs to that domain.</p>
+        <p><h3>HTTP Vs HTTPS</h3></p>
+        <p>1) In HTTP, URL begins with “http://” whereas URL starts with “https://”.</p>
+        <P>2) HTTP uses port number 80 for communication and HTTPS uses 443.
+        <p>3) HTTP is considered to be unsecure and HTTPS is secure.</p>
+        <p>4) HTTP Works at Application Layer and HTTPS works at Transport Layer</p>
+        <p>5) In HTTP, Encryption is absent and Encryption is present in HTTPS as discussed above.</p>
+        <p>6) HTTP does not require any certificates and HTTPS needs SSL Certificates.</P>
     </div>
     <br/>
     <br/>
