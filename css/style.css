@@ -148,7 +148,7 @@ h1, h2{
   padding: 20px;
 }
 .linked{
-  padding-right: 220px;
+  padding-right: 200px;
 }
 .linkedin{
   padding-left: 80px;
@@ -161,9 +161,8 @@ h1, h2{
   border-radius: 20px !important;
 }
 .accordion{
-  padding: 100px !important;
+  padding: 80px !important;
   font-weight: bold !important;
-  padding-bottom: 350px !important;
 }
 .btn{
   font-size: 25px !important;
@@ -182,4 +181,14 @@ h1, h2{
 }
 p{
   text-align: justify;
+}
+.image5{
+  padding-left: 120px;
+}
+.myh1{
+  font-family: Georgia !important;
+  font-size: 50px;
+  font-weight: bold;
+  color: royalblue;
+  text-align: center;
 }
